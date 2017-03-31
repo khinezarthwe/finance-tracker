@@ -4,7 +4,6 @@ class CreateFriendships < ActiveRecord::Migration[5.0]
 
       t.belongs_to :user
       t.belongs_to :friend, class: 'User'
-
       t.timestamps
     end
   end
